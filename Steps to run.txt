@@ -23,7 +23,9 @@ Setup Instructions:
 
 2. Download the Required Model Folders from Google Drive:
    - DistilBERTEmpGivenFeedback_90_10
+        https://drive.google.com/drive/folders/1xFZxaN9RJWesiMEe8UNNT-FWaGq5zNou?usp=sharing
    - EmployeeRetentionBERTBase100Samples
+        https://drive.google.com/drive/folders/1AuD7Q8utz-2ppAjUesxloKppXh8n6Suy?usp=sharing
 
 3. Place them in the following locations:
    - frontend/backend/Sentiment Analysis/DistilBERTEmpGivenFeedback_90_10/
