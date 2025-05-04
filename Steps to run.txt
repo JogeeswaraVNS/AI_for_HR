@@ -18,7 +18,7 @@ project-root/
 Setup Instructions:
 
 1. Clone the Repository:
-   git clone <your-repo-url>
+   git clone https://github.com/JogeeswaraVNS/AI_for_HR.git
    cd frontend
 
 2. Download the Required Model Folders from Google Drive:
