@@ -1,0 +1,5 @@
+node_modules
+/backend/employee_retention_model_5epochs_99acc_97val_acc
+/backend/Sentiment Analysis/DistilBERTGoEmotions_Pytorch_90_10_OLD
+/backend/Sentiment Analysis/DistilBERTEmpGivenFeedback_90_10
+/backend/models/EmployeeRetentionBERTBase100Samples

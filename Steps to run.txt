@@ -1,0 +1,46 @@
+# How to Run the Application
+
+Folder Structure:
+
+project-root/
+└── frontend/
+    ├── src/                                       # React frontend source code
+    ├── backend/                                   # Python Flask backend
+    │   ├── app.py                                 # Flask app entry point
+    │   ├── models/
+    │   │   └── EmployeeRetentionBERTBase100Samples/ # Model 1: Employee Performance Evaluation
+    │   ├── Sentiment Analysis/
+    │   │   └── DistilBERTEmpGivenFeedback_90_10/  # Model 2: Sentiment Analysis
+    │   └── requirements.txt                       # Python dependencies
+    ├── package.json                               # React dependencies
+    └── ...                                        # Other React-related files
+
+Setup Instructions:
+
+1. Clone the Repository:
+   git clone <your-repo-url>
+   cd frontend
+
+2. Download the Required Model Folders from Google Drive:
+   - DistilBERTEmpGivenFeedback_90_10
+   - EmployeeRetentionBERTBase100Samples
+
+3. Place them in the following locations:
+   - frontend/backend/Sentiment Analysis/DistilBERTEmpGivenFeedback_90_10/
+   - frontend/backend/models/EmployeeRetentionBERTBase100Samples/
+
+Running the Application:
+
+Open two separate terminals and follow the steps below.
+
+Terminal 1 – Start the Flask Backend:
+cd frontend/backend
+pip install -r requirements.txt
+python app.py
+
+Terminal 2 – Start the React Frontend:
+cd frontend
+npm install
+npm start
+
+The application will now be running with the React frontend connected to the Flask backend. Ensure the models are in the correct paths to avoid loading errors.

@@ -1,0 +1,7 @@
+bert-base-uncased
+bert-large-uncased
+distilbert-base-uncased
+albert-base-v2
+albert-large-v2
+google/electra-base-generator
+google/electra-large-generator
